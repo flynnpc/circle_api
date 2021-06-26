@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework_gis',
     'rest_framework',
     'cir_api.apps.CirApiConfig',
     'django.contrib.gis',
